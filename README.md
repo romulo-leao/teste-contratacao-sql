@@ -8,7 +8,7 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
   - Construa os scripts, queries e procedures para cada questão abaixo:
     - Armazene os scripts em um novo arquivo `.sql` com as construções.
 
-### Questões
+### Questões para construir
   01. Crie uma query que obtenha a lista de produtos (ProductName), e a quantidade por unidade (QuantityPerUnit);
   02. Crie uma query que obtenha a lista de produtos ativos (ProductID e ProductName);
   03. Crie uma query que obtenha a lista de produtos descontinuados (ProductID e ProductName);
@@ -25,6 +25,17 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
   14. Crie uma query que obtenha todos os dados de pedidos (Orders) que envolvam os fornecedores da cidade 'Manchester' e foram enviados pela empresa 'Speedy Express';
   15. Crie uma query que obtenha a lista de Produtos (ProductName) constantes nos Detalhe dos Pedidos (Order Details), calculando o valor total de cada produto já aplicado o desconto % (se tiver algum);
 
+### Questões complentares:
+  1. Tem conhecimento em processos e ferramentas de ETL? Quantos anos de experiência? Quais cases foram aplicados?
+  2. Tem experiência com ferramental Azure Data Factory?
+  3. Pode responder em um fluxograma (ou escrito em tópicos) um case de ETL onde:
+      - Parte dos dados da origem estão em banco de dados Oracle e outra em CSV no Storage Bucket da AWS
+      - O dado final deverá estar na base de dados SQL Server.
+      - Deverá acontecer validação da entrada dos dados da origem.
+      - Validação dos dados finais que foram processados.
+      - Cálculos dos dados de origem, para geração de indicadores (que serão os dados finais).
+
+
 ### Modelo de Dados:
 <img width="1121" alt="Modelo de Dados" src="https://github.com/targetsoftware/teste-contratacao-sql/assets/9052611/bc869bf2-615e-4619-a017-1aebc5ea11f8">
 
@@ -32,10 +43,11 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
   - Padrão utilizado de desenvolvimento;
   - Boas práticas aplicadas;
   - Aplicação de conceitos de performance;
-  - Separação de camadas de apresentação, serviços, negócios e repositório;
+  - Organização e desenho do processo de ETL.
 
 ### Diferenciais
   - Documentação
+  - Azure DataFactory
 
 Disponibilizar o código desenvolvido via GitHub (realize um `fork` deste repositório) para avaliação. 
 
