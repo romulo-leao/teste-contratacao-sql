@@ -28,7 +28,7 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
 ### Modelo de Dados:
 <img width="1121" alt="Modelo de Dados" src="https://github.com/targetsoftware/teste-contratacao-sql/assets/9052611/bc869bf2-615e-4619-a017-1aebc5ea11f8">
 
-### Questões complemtares:
+### Questões complementares:
   1. Tem conhecimento em processos e ferramentas de ETL? Quantos anos de experiência? Quais cases foram aplicados?
   2. Tem experiência com ferramental Azure Data Factory?
   3. Pode responder em um fluxograma (ou escrito em tópicos) um case de ETL onde:
