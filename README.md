@@ -25,7 +25,10 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
   14. Crie uma query que obtenha todos os dados de pedidos (Orders) que envolvam os fornecedores da cidade 'Manchester' e foram enviados pela empresa 'Speedy Express';
   15. Crie uma query que obtenha a lista de Produtos (ProductName) constantes nos Detalhe dos Pedidos (Order Details), calculando o valor total de cada produto já aplicado o desconto % (se tiver algum);
 
-### Questões complentares:
+### Modelo de Dados:
+<img width="1121" alt="Modelo de Dados" src="https://github.com/targetsoftware/teste-contratacao-sql/assets/9052611/bc869bf2-615e-4619-a017-1aebc5ea11f8">
+
+### Questões complemtares:
   1. Tem conhecimento em processos e ferramentas de ETL? Quantos anos de experiência? Quais cases foram aplicados?
   2. Tem experiência com ferramental Azure Data Factory?
   3. Pode responder em um fluxograma (ou escrito em tópicos) um case de ETL onde:
@@ -34,10 +37,6 @@ Realize um `fork` e suba o código desenvolvido dentro deste repositório.
       - Deverá acontecer validação da entrada dos dados da origem.
       - Validação dos dados finais que foram processados.
       - Cálculos dos dados de origem, para geração de indicadores (que serão os dados finais).
-
-
-### Modelo de Dados:
-<img width="1121" alt="Modelo de Dados" src="https://github.com/targetsoftware/teste-contratacao-sql/assets/9052611/bc869bf2-615e-4619-a017-1aebc5ea11f8">
 
 ### O que será avaliado:
   - Padrão utilizado de desenvolvimento;
